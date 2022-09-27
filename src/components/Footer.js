@@ -5,13 +5,13 @@ import { SiLinkedin } from "react-icons/si";
 function Footer() {
   return (
     <footer className="bg-[#EEEEEE] md:px-4 py-3 mt-7 grid grid-cols-3 border-[#2C3333] border-t-2">
-      <ul className="flex justify-center items-center flex-col ">
+      <ul className="flex justify-center items-center flex-col">
         <li className="flex justify-center items-center flex-col text-sm">
           Build with <IoHeartSharp /> 2022
         </li>
       </ul>
 
-      <ul className="flex justify-center md:items-center flex-col ">
+      <ul className="flex justify-center md:items-center flex-col gap-2">
         <a href="https://github.com/muhammadmario">
           <li className="flex justify-center md:items-center text-sm">
             <IoLogoGithub /> Muhammad Mario
@@ -23,10 +23,12 @@ function Footer() {
             <IoLogoInstagram /> MarioBaron_
           </li>
         </a>
-        <li className="flex justify-center md:items-center text-sm">
-          <SiLinkedin />
-          Muhammad Mario
-        </li>
+        <a href="https://www.linkedin.com/in/muhammad-mario-wijatmika-5634a1170/">
+          <li className="flex justify-center md:items-center text-sm">
+            <SiLinkedin />
+            Muhammad Mario
+          </li>
+        </a>
       </ul>
 
       <ul className="flex justify-center md:items-center flex-col ">

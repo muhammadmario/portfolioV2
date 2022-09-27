@@ -9,7 +9,7 @@ import StickySocial from "./components/StickySocial";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden font-[montserrat] bg-[#FBF8F1]">
+    <div className="App  font-[montserrat] bg-[#FBF8F1]">
       <Navbar />
       <Home />
       <About />

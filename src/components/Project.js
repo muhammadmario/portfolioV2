@@ -5,6 +5,7 @@ import movieku from "../assets/img/movieku.jpg";
 import netflix from "../assets/img/netflix.jpg";
 import newsAggregator from "../assets/img/newsaggregator.jpg";
 import monitorPanda from "../assets/img/monitorpanda.png";
+import fakeStore from "../assets/img/fakestore.png";
 
 function Project() {
   return (
@@ -18,23 +19,38 @@ function Project() {
       <div className="grid grid-cols-1 md:grid-cols-2  gap-2 md:flex-row md:flex-wrap box-border md:mt-5">
         <ProjectCard
           img={atensi}
-          title={"Atensi Napza"}
-          path={"https://github.com/muhammadmario/E-leraning"}
+          title="Atensi Napza"
+          path="https://github.com/muhammadmario/E-leraning"
+          desc="Website Elearning untuk rehabilitasi NAPZA"
+          stack="Laravel, MySQL, Livewire"
         />
         <ProjectCard
           img={monitorPanda}
-          title={"Monitor data penduduk"}
-          path={"https://monitor.panda.id/"}
+          title="Monitor data penduduk"
+          path="https://monitor.panda.id/"
+          desc="Website Statistik data penduduk"
+          stack="React JS, Laravel"
+        />
+        <ProjectCard
+          img={fakeStore}
+          title="Fake Store"
+          path="https://github.com/muhammadmario/fake-store"
+          desc="Website E-commerce"
+          stack="React JS"
         />
         <ProjectCard
           img={movieku}
-          title={"Movieku"}
-          path={"https://movieku.netlify.app/"}
+          title="Movieku"
+          path="https://movieku.netlify.app/"
+          desc="Website movie"
+          stack="React JS"
         />
         <ProjectCard
           img={netflix}
-          title={"Netflix"}
-          path={"https://netflix-clone-ddac7.firebaseapp.com/"}
+          title="Netflix"
+          path="https://netflix-clone-ddac7.firebaseapp.com/"
+          desc="Cloning website netflix"
+          stack="React JS"
         />
       </div>
     </div>
