@@ -9,13 +9,15 @@ function ProjectCard({ img, title, path, desc, stack }) {
           alt={title}
           className="md:border-[#2C3333] border-b-2 lg:h-80 bg-contain"
         />
-        <h2 className="font-normal text-lg md:text-xl md:font-semibold text-center">
-          {title}
-        </h2>
-        <p className="text-center text-sm">{desc}</p>
-        <p className="text-center text-xs">
-          Build with: <span className="font-bold">{stack}</span>
-        </p>
+        <div className="py-5">
+          <h2 className="font-normal text-lg md:text-xl md:font-semibold text-center">
+            {title}
+          </h2>
+          <p className="text-center text-sm">{desc}</p>
+          <p className="text-center text-xs">
+            Build with: <span className="font-bold">{stack}</span>
+          </p>
+        </div>
       </div>
     </a>
   );

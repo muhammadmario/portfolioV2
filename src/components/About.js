@@ -11,7 +11,7 @@ import bnspLogo from "../assets/img/bnspLogo.png";
 function About() {
   return (
     <div
-      className="flex w-full flex-col mt-7 gap-7 md:gap-0 md:mt-0 md:flex-row md:px-28"
+      className="flex w-full flex-col pt-16 gap-7 md:gap-0 md:mt-0 md:flex-row md:px-28 "
       id="about"
     >
       <div className="w-full flex flex-col justify-center px-4 md:px-0 md:w-1/2 md:border-[#2C3333] md:border-t-2">
@@ -27,11 +27,11 @@ function About() {
           </li>
           <li className="flex gap-2 items-center">
             <IoCallOutline style={{ fontSize: "30px" }} />
-            No HP : 081215587619
+            No HP : 081287565858
           </li>
           <li className="flex gap-2 items-center">
             <IoMailOutline style={{ fontSize: "30px" }} />
-            E-mail : mariobaron1210@gmail.com
+            E-mail : muhammadmariowijatmika@gmail.com
           </li>
         </ul>
       </div>

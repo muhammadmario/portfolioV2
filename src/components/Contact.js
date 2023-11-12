@@ -19,7 +19,6 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           e.target.reset();
           toast.success("Message successfull send", {
             position: "top-center",

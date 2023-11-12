@@ -1,5 +1,5 @@
 import React from "react";
-import { IoLogoGithub, IoLogoInstagram, IoHeartSharp } from "react-icons/io5";
+import { IoLogoGithub, IoLogoInstagram } from "react-icons/io5";
 import { SiLinkedin } from "react-icons/si";
 
 function StickySocial() {

@@ -1,13 +1,18 @@
-import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 import {
-  IoLogoGithub,
   IoLogoLaravel,
   IoLogoReact,
   IoLogoHtml5,
   IoLogoJavascript,
 } from "react-icons/io5";
-import { SiRedux, SiCss3, SiTailwindcss, SiBootstrap } from "react-icons/si";
+import {
+  SiRedux,
+  SiCss3,
+  SiTailwindcss,
+  SiBootstrap,
+  SiVuedotjs,
+  SiMaterialui,
+} from "react-icons/si";
 
 function Skill() {
   return (
@@ -16,16 +21,12 @@ function Skill() {
       id="skills"
     >
       <h1 className="font-bold text-xl text-center md:text-3xl">Skills</h1>
-      {/* <div className="flex justify-center items-center flex-col md:flex-row gap-8 bg-[#EEEEEE] md:mt-5"> */}
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:flex lg:justify-center lg:gap-14 bg-[#EEEEEE] md:mt-5 md:py-4">
-        <div className="flex flex-col justify-center items-center">
+        {/* <div className="flex flex-col justify-center items-center">
           <IoLogoHtml5 style={{ fontSize: "90px" }} />
           <span>HTML</span>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <SiCss3 style={{ fontSize: "80px" }} />
-          <span>CSS</span>
-        </div>
+        </div> */}
+
         <div className="flex flex-col justify-center items-center">
           <IoLogoJavascript style={{ fontSize: "80px" }} />
           <span>Javascript</span>
@@ -49,6 +50,14 @@ function Skill() {
         <div className="flex flex-col justify-center items-center">
           <SiBootstrap style={{ fontSize: "80px" }} />
           <span>Bootstrap</span>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <SiVuedotjs style={{ fontSize: "80px" }} />
+          <span>Vue Js</span>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <SiMaterialui style={{ fontSize: "80px" }} />
+          <span>Material UI</span>
         </div>
       </div>
     </div>
